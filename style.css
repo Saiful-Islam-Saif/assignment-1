@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.flexible-section {
+  display: flex;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+}
+p {
+  line-height: 1.5rem;
+}
+.first-heading {
+  border-left: 5px solid #ff5959;
+  border-radius: 5px;
+}
+.second-heading {
+  text-align: center;
+}
+#card-1 {
+  background-color: #edf5f6;
+}
+#card-2 {
+  background-color: #ffeeee;
+}
+#card-3 {
+  background-color: #fff4d6;
+}
+.half-width {
+  width: 50%;
+  padding: 15px;
+  margin-left: 80px;
+  margin-bottom: 90px;
+}
+.linking-button {
+  font-weight: 750;
+  padding: 10px 40px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  background-color: #ff5959;
+  background-image: linear-gradient(#ff5959, #ff5910);
+  color: white;
+}
+img {
+  width: 50%;
+}
+.orange {
+  color: orange;
+}
+/* This is second section */
+.my-mission {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  padding: 2px;
+  justify-content: space-around;
+}
+.mission {
+  width: 330px;
+  margin: 50px;
+  padding: 2px;
+  border: 2px noborder gray;
+  background-color: #ffeeee;
+  box-shadow: 4px 4px 12px gray;
+  border-radius: 5px;
+}
+
+.div-img img {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  background-color: #0b0d17;
+  color: white;
+  font-family: "Island Moments", cursive;
+  padding-bottom: 20px;
+}
+.footer h1 span {
+  color: #ff5959;
+}
